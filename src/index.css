@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montagu+Slab:wght@300&family=Montserrat:ital,wght@1,200&display=swap');
+body {
+  margin: 0;
+  font-family: 'Montaga', serif;
+font-family: 'Montagu Slab', serif;
+font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*body,html{
+  overflow: hidden !important;
+}*/
+code {
+  font-family: 'Montaga', serif;
+font-family: 'Montagu Slab', serif;
+font-family: 'Montserrat', sans-serif;
+}
