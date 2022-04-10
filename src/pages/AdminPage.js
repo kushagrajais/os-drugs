@@ -228,6 +228,24 @@ function AdminPage() {
                   />
                   <input
                     type="text"
+                    value={product.description}
+                    className="form-control"
+                    placeholder="description"
+                    onChange={(e) =>
+                      setProduct({ ...product, description: e.target.value })
+                    }
+                  />
+                  <input
+                    type="text"
+                    value={product.composition}
+                    className="form-control"
+                    placeholder="composition"
+                    onChange={(e) =>
+                      setProduct({ ...product, composition: e.target.value })
+                    }
+                  />
+                  <input
+                    type="text"
                     value={product.Category}
                     className="form-control"
                     placeholder="category"

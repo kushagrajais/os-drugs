@@ -29,7 +29,7 @@ function Registerpage() {
 
   return (
     <div className='register-parent'>
-      {loading && (<Loader/>)}
+      //{loading && (<Loader/>)}
       <div className='register-top'>
 
       </div>

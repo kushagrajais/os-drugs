@@ -129,18 +129,20 @@ useEffect(() => {
                       <h2>{products.price} RS/-</h2>
                       <div
                         className="d-flex"
-                        onClick={() => addToCart(products)}
-                      >
-                        <button>ADD TO CART</button>
+                        >
+                        <button  onClick={() => addToCart(products)}>ADD TO CART</button>
+                        
+
                         <button
                           className="mx-2"
                           onClick={() => {
                             navigate(`/Productinfo/${products.id} `);
                           }}
-                        >
+                          >
                           VIEW
                         </button>
-                      </div>
+                            </div>
+                          
                     </div>
                   </div>
                 </div>

@@ -51,7 +51,10 @@ function Productinfo() {
         </div>
         <img src={product.imageURL} alt="" className='product-info-img'/>
       <hr />
+      <div className='des'>
+      <h2><b>Description</b></h2>
       <p>{product.description}</p>
+      </div>
       <div className="d-flex justify-content-end my-3">
         <button onClick={()=>addToCart(product)}>ADD TO CART</button>
 
